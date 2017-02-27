@@ -15,7 +15,7 @@ public class SeleMavenTest
 	@Test
 	public void testLaunchURL() 
 	{
-		System.out.println("Launch www.google.com URL");
+		System.out.println("Launch http://www.google.com URL");
 	}
 	
 	@AfterTest
