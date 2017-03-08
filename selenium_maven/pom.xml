@@ -11,8 +11,11 @@
           			<artifactId>maven-surefire-plugin</artifactId>
           			<version>2.19.1</version>
 			        <configuration>
+			        <!-- Configuring the test suites to execute -->
 			          <suiteXmlFiles>
 			            <suiteXmlFile>testng.xml</suiteXmlFile>
+			            <!--<suiteXmlFile>testng1.xml</suiteXmlFile>
+			            <suiteXmlFile>testng2.xml</suiteXmlFile>-->
 			          </suiteXmlFiles>
 			        </configuration>          			
         		</plugin>
